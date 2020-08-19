@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import path
 
-from lists import views
+from . import views
 
 urlpatterns = [
     path('new', views.new_list, name='new_list'),
